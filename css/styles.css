@@ -62,3 +62,23 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+a {
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+}
+
+/* .blog {
+    display: block;
+    text-align: left;
+    margin: 0;
+} */
+
+.blog>:not(:last-child) {
+    display: block;
+    margin-bottom: 10px;
+}
