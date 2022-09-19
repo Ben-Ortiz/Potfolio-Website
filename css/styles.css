@@ -7,7 +7,7 @@
 
 .content {
     display: block;
-    max-width: 1000px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -61,4 +61,24 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+a {
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+}
+
+/* .blog {
+    display: block;
+    text-align: left;
+    margin: 0;
+} */
+
+.blog>:not(:last-child) {
+    display: block;
+    margin-bottom: 10px;
 }
