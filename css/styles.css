@@ -36,6 +36,21 @@
     outline: none;
 }
 
+.home-button:hover,
+.resume-button:hover,
+.blog-button:hover,
+.project-button:hover {
+    text-decoration: underline black;
+    text-underline-position: under;
+}
+
+.home-button:active,
+.resume-button:active,
+.blog-button:active,
+.project-button:active {
+    opacity: 0.4;
+}
+
 
 h1 {
     display: flex;
@@ -76,3 +91,13 @@ a {
     display: block;
     margin-bottom: 10px;
 }
+
+.blog-link:hover {
+    text-decoration: underline black;
+    text-underline-position: under;
+}
+
+.blog-link:active {
+    opacity: 0.4;
+}
+
