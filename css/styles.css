@@ -99,3 +99,14 @@ a {
     opacity: 0.4;
 }
 
+.project-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 40px;
+}
+
+.project-item {
+    background-color: lightblue;
+    width: 100%;
+}
