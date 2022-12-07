@@ -41,7 +41,6 @@
 .blog-button:hover,
 .project-button:hover {
     text-decoration: underline black;
-    text-underline-position: under;
 }
 
 .home-button:active,
@@ -94,7 +93,6 @@ a {
 
 .blog-link:hover {
     text-decoration: underline black;
-    text-underline-position: under;
 }
 
 .blog-link:active {
