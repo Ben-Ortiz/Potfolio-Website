@@ -1,2 +1,2 @@
-# Potfolio-Website-2
-A second version of my porfolio website to solidify HTML, CSS, and Javascript concepts.
+# Portfolio Website: [Benedictortiz.com](https://benedictortiz.com/)
+A personal project, my portfolio website. To showcase who I am, my skills, projects, and work experience.
