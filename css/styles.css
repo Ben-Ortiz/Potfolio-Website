@@ -86,11 +86,6 @@ a {
     text-decoration: none;
 }
 
-.blog>:not(:last-child) {
-    display: block;
-    margin-bottom: 10px;
-}
-
 .blog-link:hover {
     text-decoration: underline black;
 }
@@ -99,14 +94,26 @@ a {
     opacity: 0.4;
 }
 
-.project-container-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 1px;
-    row-gap: 40px;
+.blog-date {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 5px;
 }
 
-.project-item {
-    background-color: lightblue;
-    width: 100%;
+.blog-description {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.project-description {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.project-link:hover {
+    text-decoration: underline black;
+}
+
+.project-link:active {
+    opacity: 0.4;
 }
