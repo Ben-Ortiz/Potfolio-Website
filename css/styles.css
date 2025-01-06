@@ -43,6 +43,10 @@
     text-decoration: underline black;
 }
 
+.resume-link:hover {
+    text-decoration: underline black;
+}
+
 .home-button:active,
 .resume-button:active,
 .blog-button:active,
